@@ -1,3 +1,10 @@
+# [5.11.0](https://github.com/padamstx/go-sdk-core/compare/v5.10.3...v5.11.0) (2022-11-11)
+
+
+### Features
+
+* complete gh actions definitions ([bf59fd8](https://github.com/padamstx/go-sdk-core/commit/bf59fd8182880df06b8bfc63878eb2b1cd293407))
+
 ## [5.10.3](https://github.com/padamstx/go-sdk-core/compare/v5.10.2...v5.10.3) (2022-11-11)
 
 
