@@ -1,3 +1,10 @@
+## [5.11.1](https://github.com/padamstx/go-sdk-core/compare/v5.11.0...v5.11.1) (2022-11-14)
+
+
+### Bug Fixes
+
+* support '[skip ci]' on head commit ([#3](https://github.com/padamstx/go-sdk-core/issues/3)) ([067268f](https://github.com/padamstx/go-sdk-core/commit/067268f6b5a9a9f082c1f462fd127eaf594e018b))
+
 # [5.11.0](https://github.com/padamstx/go-sdk-core/compare/v5.10.3...v5.11.0) (2022-11-11)
 
 
