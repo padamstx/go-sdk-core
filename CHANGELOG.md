@@ -1,3 +1,10 @@
+## [5.11.2](https://github.com/padamstx/go-sdk-core/compare/v5.11.1...v5.11.2) (2022-11-14)
+
+
+### Bug Fixes
+
+* combine build/release workflows ([f60637e](https://github.com/padamstx/go-sdk-core/commit/f60637e5020ecef8a3a8a3df4c2695e7a2370bdc))
+
 ## [5.11.1](https://github.com/padamstx/go-sdk-core/compare/v5.11.0...v5.11.1) (2022-11-14)
 
 
