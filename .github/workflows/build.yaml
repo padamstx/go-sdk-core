@@ -43,7 +43,7 @@ jobs:
   create_release:
     needs: build
     # Only run this job on the main branch and only for our min version of Go.
-    if: "github.ref_name == 'main'"
+    if: "github.ref_name == 'main' && github.event_name != 'pull_request'"
     runs-on: ubuntu-latest
     strategy:
       matrix:
