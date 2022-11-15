@@ -1,4 +1,4 @@
-![Build Status](https://github.com/padamstx/go-sdk-core/actions/workflows/build-test.yaml/badge.svg?branch=ghactions)
+![Build Status](https://github.com/padamstx/go-sdk-core/actions/workflows/build.yaml/badge.svg?branch=main)
 [![Release](https://img.shields.io/github/v/release/padamstx/go-sdk-core)](https://github.com/padamstx/go-sdk-core/releases/latest)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/padamstx/go-sdk-core?filename=v5/go.mod)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
