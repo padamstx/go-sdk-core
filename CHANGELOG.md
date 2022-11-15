@@ -1,3 +1,10 @@
+## [5.11.3](https://github.com/padamstx/go-sdk-core/compare/v5.11.2...v5.11.3) (2022-11-15)
+
+
+### Bug Fixes
+
+* tweaks to build.yaml ([8042a53](https://github.com/padamstx/go-sdk-core/commit/8042a53b0a9f3391c8f97fc056ed2c1784ac1a39))
+
 ## [5.11.2](https://github.com/padamstx/go-sdk-core/compare/v5.11.1...v5.11.2) (2022-11-14)
 
 
