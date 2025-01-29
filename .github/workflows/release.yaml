@@ -1,0 +1,32 @@
+name: Build & Test
+
+on: 
+  push:
+    tags: 
+      - new-release@*
+      - v*
+  workflow_dispatch:
+    # Allow workflow to be triggered manually.
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    name: Build & Test (Go v${{ matrix.go-version }})
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger info
+        run: |
+          echo "Build triggered by event: " ${{ github.event_name }}
+          echo "                 git ref: " ${{ github.ref }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Go v${{ matrix.go-version }}
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.22.x
+
+      - name: Run the build
+        run: echo "Building the project..."
