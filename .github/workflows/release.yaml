@@ -1,10 +1,14 @@
-name: Deploy Release
+name: Deploy
 
 on: 
   push:
     tags: 
       - new-release@*
       - v*
+  release:
+    types:
+      - published
+      - created
   workflow_dispatch:
     # Allow workflow to be triggered manually.
 

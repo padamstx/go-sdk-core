@@ -3,7 +3,7 @@
 # semantic-release is also run to create a new release (if
 # warranted by the new commits being built).
 
-name: Build & Test
+name: Build
 
 on: 
   push:
@@ -55,11 +55,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
-      - name: Set up Go
-        uses: actions/setup-go@v3
-        with:
-          go-version: '1.23.x'
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
