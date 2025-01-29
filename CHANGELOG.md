@@ -1,3 +1,10 @@
+## [5.11.6](https://github.com/padamstx/go-sdk-core/compare/v5.11.5...v5.11.6) (2025-01-29)
+
+
+### Bug Fixes
+
+* **build:** another feature ([c2ad808](https://github.com/padamstx/go-sdk-core/commit/c2ad808505814db176822430ae9131c8cabfa65e))
+
 ## [5.11.5](https://github.com/padamstx/go-sdk-core/compare/v5.11.4...v5.11.5) (2025-01-29)
 
 
